@@ -1,0 +1,190 @@
+@font-face {
+  font-family: 'Weekly';
+  src: url('/fonts/Weekly.ttf') format('truetype');
+}
+
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set the background color and font styles */
+body {
+  scroll-behavior: smooth;
+  background: rgb(43, 43, 43);
+  font-family: 'Weekly', sans-serif;
+  color: #ffffff;
+  line-height: 1.6;
+  padding-left: 230px; /* Add padding to the left to accommodate the navbar */
+  padding-right: 80px;
+}
+
+/* Header styling */
+header {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #fcfcfc;
+}
+
+header h2 {
+  font-size: 20px;
+  color: #e0e0e0;
+}
+
+/* Particles-js container */
+#particles-js {
+  background: rgb(3, 190, 190);
+  position: fixed;
+  z-index: -100;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Style the navbar */
+.navbar {
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 150px;
+  height: 100%;
+  background: rgba(44, 44, 44, 1);
+  color: #fff;
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 20px;
+}
+
+.navbar li {
+  padding: 5px;
+  margin-bottom: 15px;
+  transition: transform 0.3s;
+}
+
+.navbar li:hover {
+  transform: scale(1.05);
+  background: rgba(255, 255, 255, 1);
+  /* Zoom effect on hover */
+}
+
+.navbar li:hover a {
+  color: #111;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+/* Style the footer at the bottom of the navbar */
+footer {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  max-width: 100px;
+}
+
+.section {
+  margin: 50px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.8);
+  transition: transform 0.3s;
+  /* Add smooth transition */
+}
+
+.section:hover {
+  transform: scale(1.05);
+  background: rgba(255, 255, 255, 1);
+  /* Zoom effect on hover */
+}
+
+section h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+section h3 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+section h4 {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 3px;
+}
+
+section p {
+  color: #444;
+  margin-bottom: 5px;
+}
+
+section div {
+  margin-bottom: 10px;
+}
+
+section ul {
+  list-style: disc;
+  margin-left: 20px;
+  color: #444;
+}
+
+section i {
+  margin-right: 10px;
+  color: #333;
+}
+
+section a {
+  color: #444;
+}
+
+section span {
+  color: #444;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-bottom:40px;
+}
+
+.flex-item {
+  position: relative;
+  flex: 1 1 300px; /* Adjust width as needed */
+  margin: 20px;
+  padding: 20px;
+  background: rgba(235, 235, 235, 0.5);
+  text-align: left;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.flex-item:hover {
+  transform: scale(1.15);
+  z-index: 100;
+  background: rgba(218, 218, 218, 1);
+}
+
+.logo {
+  position: absolute;
+  top: 80%;
+  right: 0;
+  height: 40%;
+  width: 100%;
+}

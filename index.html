@@ -1,65 +1,318 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="styles-small.css" media="(max-width: 767px)">
+  <link rel="stylesheet" href="styles.css" media="(min-width: 768px)">
+  <title>Alejandro Jarabo Peñas</title>
 </head>
+
 <body>
+  <nav class="navbar">
+    <ul>
+      <li><a href="#intro">Intro</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#additional">Additional</a></li>
+    </ul>
+  </nav>
+
   <header>
-    <nav>
-      <div class="container">
-        <h1 class="logo">My Portfolio</h1>
-        <ul class="menu">
-          <li><a href="#about">About</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </div>
-    </nav>
+    <h1>Alejandro Jarabo Peñas</h1>
+    <h2>Telecom Engineer with Data Science Experience</h2>
   </header>
 
-  <section id="about">
-    <div class="container">
-      <h2>About Me</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam pretium est eget tincidunt pulvinar.</p>
-      <p>Suspendisse potenti. Cras a sapien congue, ullamcorper justo vitae, pulvinar lectus.</p>
+  <section class="section" id="intro">
+    <h2>Intro</h2>
+    <div class="flex-container">
+      <div class="flex-item">
+        <h3>Contact</h3>
+        <div>
+          <i class="fa fa-map-marker"></i>
+          <span>Stockholm</span>
+        </div>
+        <div>
+          <i class="fa fa-envelope"></i>
+          <a href="mailto:alejp1998@gmail.com">alejp1998@gmail.com</a>
+        </div>
+        <div>
+          <i class="fa fa-phone"></i>
+          <span>+46 72 152 19 38</span>
+        </div>
+        <div>
+          <i class="fa fa-globe"></i>
+          <a href="https://www.linkedin.com/in/ajp98/">LinkedIn: ajp98</a>
+        </div>
+        <div>
+          <i class="fa fa-github"></i>
+          <a href="https://github.com/alejp1998">GitHub: alejp1998</a>
+        </div>
+      </div>
+      <div class="flex-item">
+        <h3>Who am i?</h3>
+        <p>
+          A highly motivated engineer with a strong background in computer science, statistics, artificial intelligence,
+          and
+          telecommunications, and a great experience working with data and machine learning. A team player with good
+          communication skills, and a dedication to staying current with the latest technologies and industry
+          developments.
+          Looking to join a company at the forefront of technology, where I can apply my skills to solve challenging
+          problems and drive innovation.
+        </p>
+      </div>
+      <div class="flex-item">
+        <h3>Skills</h3>
+        <ul>
+          <li>Strong programming skills in languages used for data science such as Python and SQL</li>
+          <li>Knowledge of statistical and machine learning methods, including regression analysis, classification,
+            clustering, and dimensionality reduction</li>
+          <li>Familiarity with data modeling and ETL (extract, transform, load) processes</li>
+          <li>Experience with data manipulation and cleaning, ability to work with large, complex datasets</li>
+          <li>Strong problem-solving and critical-thinking skills</li>
+        </ul>
+      </div>
     </div>
   </section>
 
-  <section id="projects">
-    <div class="container">
-      <h2>My Projects</h2>
-      <div class="project">
-        <img src="project1.jpg" alt="Project 1">
-        <h3>Project 1</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  <section class="section" id="projects">
+    <h2>Projects</h2>
+  </section>
+
+  <section class="section" id="experience">
+    <h2>Experience</h2>
+    <div class="flex-container">
+      <div class="flex-item">
+        <img src="logos/ericsson.svg" class="logo">
+        <h3>Cloud Engineer</h3>
+        <h4>Mar. 2023 - now</h4>
+        <h4>Ericsson</h4>
+        <p>Cloud Engineer performing various development tasks at the PDU (Product Development Unit).</p>
       </div>
-      <div class="project">
-        <img src="project2.jpg" alt="Project 2">
-        <h3>Project 2</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <div class="flex-item">
+        <img src="logos/ericsson.svg" class="logo">
+        <h3>Research Intern</h3>
+        <h4>Jun. 2022 - Feb. 2023</h4>
+        <h4>Ericsson Research - Dpt. of IoT &amp; Cyber-Physical Systems</h4>
+        <p>I developed my Master Thesis titled "Knowledge Graphs for IoT Platform Digital Twins" for KTH.</p>
+      </div>
+      <div class="flex-item">
+        <img src="logos/cabify.svg" class="logo">
+        <h3>Data Science Researcher</h3>
+        <h4>Sep. 2019 - Jun. 2021 (part-time)</h4>
+        <h4>Cátedra Cabify UPM</h4>
+        <p>Published two conference papers and a research paper in the field of data science and intelligent
+          transportation systems.</p>
+      </div>
+      <div class="flex-item">
+        <img src="logos/trollstigen.svg" class="logo">
+        <h3>Helper in Camping, Restaurant & Souvenir Shop</h3>
+        <h4>Aug. 2019 and Aug. 2020</h4>
+        <h4>Trollstigen Drift AS</h4>
+        <p>Various tasks to gain work experience and improve english skills.</p>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="section" id="education">
+    <h2>Education</h2>
+    <div class="flex-container">
+      <div class="flex-item">
+        <img src="logos/kth.svg" class="logo">
+        <h3>MSc in Systems, Control, and Robotics</h3>
+        <h4>Sep. 2021 - Jan. 2023</h4>
+        <h4>KTH - Stockholm</h4>
+        <p>Analyze, design, and control complex technical systems with significant autonomous capabilities.</p>
+      </div>
+      <div class="flex-item">
+        <img src="logos/upm.svg" class="logo">
+        <h3>MSc in Telecommunication Engineering</h3>
+        <h4>Sep. 2020 - Jan. 2023</h4>
+        <h4>ETSIT UPM - Madrid</h4>
+        <p>Enables the student to carry out the profession of a Telecommunications Engineer.</p>
+      </div>
+      <div class="flex-item">
+        <img src="logos/upm.svg" class="logo">
+        <h3>Bachelor of Engineering in Telecommunication Technologies and Services</h3>
+        <h4>Sep. 2016 - Jun. 2020</h4>
+        <h4>ETSIT UPM - Madrid</h4>
+        <p>Specialization in Electronic Systems. 13 courses passed with honors.</p>
       </div>
     </div>
   </section>
 
-  <section id="contact">
-    <div class="container">
-      <h2>Contact Me</h2>
-      <form>
-        <input type="text" name="name" placeholder="Your Name">
-        <input type="email" name="email" placeholder="Your Email">
-        <textarea name="message" placeholder="Your Message"></textarea>
-        <button type="submit">Send Message</button>
-      </form>
+  <section class="section" id="additional">
+    <h2>Additional</h2>
+    <div class="flex-container">
+      <div class="flex-item">
+        <h3>Languages</h3>
+        <ul>
+          <li>Spanish - native</li>
+          <li>English - proficient</li>
+          <li>French - basic</li>
+          <li>Swedish - basic</li>
+        </ul>
+      </div>
+      <div class="flex-item">
+        <h3>Hobbies</h3>
+        <p>
+          I like playing volleyball, padel, and football; and I enjoy regularly going to the gym to seek the best
+          version
+          of myself and relieve daily stress. I also love playing chess and video games.
+        </p>
+      </div>
+      <div class="flex-item">
+        <h3>Non-profit</h3>
+        <p>
+          I am a big fan of Open Source initiatives and would love to participate in a volunteering project soon.
+        </p>
+      </div>
     </div>
   </section>
+
+  <div id="particles-js"></div>
 
   <footer>
-    <div class="container">
-      <p>&copy; 2023 My Portfolio. All rights reserved.</p>
-    </div>
+    <p>&copy; 2023 Alejandro Jarabo Peñas</p>
   </footer>
 </body>
+
+<script>
+  // JavaScript code to handle smooth scrolling to anchor targets
+  document.addEventListener('DOMContentLoaded', function () {
+    var anchorLinks = document.querySelectorAll('a[href^="#"]');
+
+    anchorLinks.forEach(function (link) {
+      link.addEventListener('click', function (e) {
+        e.preventDefault();
+        var target = document.querySelector(this.getAttribute('href'));
+        var offset = target.offsetTop; // Get the top offset position of the target element
+        window.scrollTo({
+          top: offset,
+          behavior: 'smooth'
+        });
+      });
+    });
+  });
+</script>
+
+<!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->
+<script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script>
+  particlesJS("particles-js", {
+    "particles": {
+      "number": {
+        "value": 150,
+        "density": {
+          "enable": true,
+          "value_area": 800
+        }
+      },
+      "color": {
+        "value": "#000000"
+      },
+      "shape": {
+        "type": "circle",
+        "stroke": {
+          "width": 0,
+          "color": "#000000"
+        },
+        "polygon": {
+          "nb_sides": 5
+        },
+        "image": {
+          "src": "img/github.svg",
+          "width": 100,
+          "height": 100
+        }
+      },
+      "opacity": {
+        "value": 0.7023414010527227,
+        "random": true,
+        "anim": {
+          "enable": false,
+          "speed": 1,
+          "opacity_min": 0.1,
+          "sync": false
+        }
+      },
+      "size": {
+        "value": 3,
+        "random": true,
+        "anim": {
+          "enable": false,
+          "speed": 40,
+          "size_min": 0.1,
+          "sync": false
+        }
+      },
+      "line_linked": {
+        "enable": true,
+        "distance": 150,
+        "color": "#111111",
+        "opacity": 0.49705773886831206,
+        "width": 1.5
+      },
+      "move": {
+        "enable": true,
+        "speed": 2,
+        "direction": "none",
+        "random": false,
+        "straight": false,
+        "out_mode": "out",
+        "bounce": false,
+        "attract": {
+          "enable": false,
+          "rotateX": 600,
+          "rotateY": 1200
+        }
+      }
+    },
+    "interactivity": {
+      "detect_on": "window",
+      "events": {
+        "onhover": {
+          "enable": true,
+          "mode": "bubble"
+        },
+        "onclick": {
+          "enable": false,
+          "mode": "push"
+        },
+        "resize": true
+      },
+      "modes": {
+        "grab": {
+          "distance": 400,
+          "line_linked": {
+            "opacity": 1
+          }
+        },
+        "bubble": {
+          "distance": 150,
+          "size": 10,
+          "duration": 0.9744926547616141,
+          "opacity": 8,
+          "speed": 3
+        },
+        "repulse": {
+          "distance": 200,
+          "duration": 0.4
+        },
+        "push": {
+          "particles_nb": 4
+        },
+        "remove": {
+          "particles_nb": 2
+        }
+      }
+    },
+    "retina_detect": true
+  });
+</script>
+
 </html>

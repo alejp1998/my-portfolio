@@ -1,0 +1,201 @@
+@font-face {
+    font-family: 'Weekly';
+    src: url('/fonts/Weekly.ttf') format('truetype');
+  }
+  
+  /* Reset some default styles */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Set the background color and font styles */
+  body {
+    position: absolute;
+    top: 70px;
+    scroll-behavior: smooth;
+    background: rgb(43, 43, 43);
+    font-family: 'Weekly', sans-serif;
+    color: #ffffff;
+    line-height: 1.6;
+    padding: 0;
+  }
+  
+  /* Header styling */
+  header {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #fcfcfc;
+  }
+  
+  header h2 {
+    font-size: 20px;
+    color: #e0e0e0;
+  }
+  
+  /* Particles-js container */
+  #particles-js {
+    background: rgb(3, 190, 190);
+    position: fixed;
+    z-index: -100;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* Style the navbar */
+  .navbar {
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    background: rgba(44, 44, 44, 1);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar li {
+    padding: 10px;
+    transition: transform 0.3s;
+  }
+  
+  .navbar li:hover {
+    transform: scale(1.05);
+    background: rgba(255, 255, 255, 1);
+    /* Zoom effect on hover */
+  }
+  
+  .navbar li:hover a {
+    color: #111;
+  }
+  
+  .navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  /* Style the footer at the bottom of the navbar */
+  footer {
+    background-color: #333;
+    justify-content: center;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+  }
+  
+  .section {
+    margin: 20px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    transition: transform 0.3s;
+    /* Add smooth transition */
+  }
+
+  .section:before {
+    content: "";
+    display: block;
+    height: 100px; /* Adjust the offset height as needed */
+    margin-top: -100px; /* Negative value to offset the scroll position */
+    visibility: hidden;
+  }
+  
+  section h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  section h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  section h4 {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 3px;
+  }
+  
+  section p {
+    color: #444;
+    margin-bottom: 5px;
+  }
+  
+  section div {
+    margin-bottom: 10px;
+  }
+  
+  section ul {
+    list-style: disc;
+    margin-left: 20px;
+    color: #444;
+  }
+  
+  section i {
+    margin-right: 10px;
+    color: #333;
+  }
+  
+  section a {
+    color: #444;
+  }
+  
+  section span {
+    color: #444;
+  }
+  
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 40px;
+  }
+  
+  .flex-item {
+    position: relative;
+    flex: 1 1 100%;
+    margin: 20px;
+    padding: 20px;
+    background: rgba(235, 235, 235, 0.5);
+    text-align: left;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .flex-item:hover {
+    transform: scale(1.15);
+    z-index: 100;
+    background: rgba(218, 218, 218, 1);
+  }
+  
+  .logo {
+    position: absolute;
+    top: 80%;
+    right: 0;
+    height: 40%;
+    width: 100%;
+  }
