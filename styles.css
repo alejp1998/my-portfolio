@@ -17,8 +17,9 @@ body {
   font-family: 'Weekly', sans-serif;
   color: #ffffff;
   line-height: 1.6;
-  padding-left: 230px; /* Add padding to the left to accommodate the navbar */
-  padding-right: 80px;
+  padding-left: 180px;
+  /* Add padding to the left to accommodate the navbar */
+  padding-right: 30px;
 }
 
 /* Header styling */
@@ -52,7 +53,7 @@ header h2 {
 
 /* Style the navbar */
 .navbar {
-  z-index: 100;
+  z-index: 50;
   position: fixed;
   top: 0;
   left: 0;
@@ -91,6 +92,7 @@ header h2 {
 
 /* Style the footer at the bottom of the navbar */
 footer {
+  z-index: 100;
   position: fixed;
   bottom: 10px;
   left: 10px;
@@ -98,7 +100,7 @@ footer {
 }
 
 .section {
-  margin: 50px;
+  margin-bottom: 50px;
   padding: 20px;
   background: rgba(255, 255, 255, 0.8);
   transition: transform 0.3s;
@@ -106,9 +108,17 @@ footer {
 }
 
 .section:hover {
-  transform: scale(1.05);
+  transform: scale(1.025);
   background: rgba(255, 255, 255, 1);
   /* Zoom effect on hover */
+}
+
+[id]::before {
+  content: '';
+  display: block;
+  height:      75px;
+  margin-top: -75px;
+  visibility: hidden;
 }
 
 section h2 {
@@ -161,12 +171,13 @@ section span {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  padding-bottom:40px;
+  padding-bottom: 40px;
 }
 
 .flex-item {
   position: relative;
-  flex: 1 1 300px; /* Adjust width as needed */
+  flex: 1 1 300px;
+  /* Adjust width as needed */
   margin: 20px;
   padding: 20px;
   background: rgba(235, 235, 235, 0.5);
