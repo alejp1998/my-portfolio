@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Weekly';
-  src: url('/fonts/Weekly.ttf') format('truetype');
+  src: url('/my-fonts/Weekly.ttf') format('truetype');
 }
 
 /* Reset some default styles */
@@ -197,5 +197,10 @@ section span {
   top: 80%;
   right: 0;
   height: 40%;
+  width: 100%;
+}
+
+.item-image {
+  left: 50%;
   width: 100%;
 }
