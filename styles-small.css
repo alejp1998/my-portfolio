@@ -1,8 +1,3 @@
-@font-face {
-  font-family: 'Weekly';
-  src: url('/my-fonts/Weekly.ttf') format('truetype');
-}
-
 /* Reset some default styles */
 * {
   margin: 0;
@@ -16,7 +11,7 @@ body {
   top: 70px;
   scroll-behavior: smooth;
   background: rgb(43, 43, 43);
-  font-family: 'Weekly', sans-serif;
+  font-family: 'Space Mono', monospace;
   color: #ffffff;
   line-height: 1.6;
   padding: 0;
@@ -30,19 +25,19 @@ header {
 }
 
 header h1 {
-  font-size: 36px;
+  font-size: 28px;
   margin-bottom: 10px;
   color: #fcfcfc;
 }
 
 header h2 {
   font-size: 20px;
-  color: #e0e0e0;
+  color: #fcfcfc;
 }
 
 /* Particles-js container */
 #particles-js {
-  background: rgb(3, 190, 190);
+  background: rgb(0, 255, 255);
   position: fixed;
   z-index: -100;
   left: 0;
@@ -93,7 +88,7 @@ header h2 {
 .navbar a {
   color: #fff;
   text-decoration: none;
-  font-size: 12px;
+  font-size: 10px;
 }
 
 /* Style the footer at the bottom of the navbar */
