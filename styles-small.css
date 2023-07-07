@@ -27,12 +27,12 @@ header {
 header h1 {
   font-size: 28px;
   margin-bottom: 10px;
-  color: #fcfcfc;
+  color: #020202;
 }
 
 header h2 {
   font-size: 20px;
-  color: #fcfcfc;
+  color: #3b3b3b;
 }
 
 /* Particles-js container */
