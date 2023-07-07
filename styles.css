@@ -122,6 +122,7 @@ footer {
 }
 
 section h2 {
+  text-align: center;
   font-size: 24px;
   color: #333;
   margin-bottom: 10px;
@@ -200,7 +201,15 @@ section span {
   width: 100%;
 }
 
-.item-image {
-  left: 50%;
-  width: 100%;
+.image-container {
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
 }

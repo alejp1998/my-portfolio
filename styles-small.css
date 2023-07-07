@@ -107,9 +107,10 @@ footer {
 }
 
 .section {
-  margin: 20px;
-  padding: 20px;
-  background: rgba(255, 255, 255, 0.8);
+  margin-bottom: 50px;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  background: rgba(255, 255, 255, 1);
   transition: transform 0.3s;
   /* Add smooth transition */
 }
@@ -123,6 +124,7 @@ footer {
 }
 
 section h2 {
+  text-align: center;
   font-size: 24px;
   color: #333;
   margin-bottom: 10px;
@@ -178,9 +180,9 @@ section span {
 .flex-item {
   position: relative;
   flex: 1 1 100%;
-  margin: 20px;
+  margin-bottom: 30px;
   padding: 20px;
-  background: rgba(235, 235, 235, 0.5);
+  background: rgba(235, 235, 235, 1);
   text-align: left;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s;
@@ -194,7 +196,15 @@ section span {
   width: 100%;
 }
 
-.item-image {
-  left: 50%;
-  width: 100%;
+.image-container {
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
 }
